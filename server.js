@@ -4,7 +4,6 @@ var express = require('express'),
     app = express(),
     eps = require('ejs'),
     morgan = require('morgan'),
-    routes = require('./routes/index'),
     insert = require('./routes/insertParkInfo');
 
 Object.assign = require('object-assign')
